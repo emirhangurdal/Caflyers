@@ -7,6 +7,7 @@
 
 import SwiftUI
 struct ContentView: View {
+    @State private var isShowingCategories: Bool = false
     @State private var flyerBrands = [FlyerBrand]()
     let caflyersAPI = CaflyersAPI()
     let endpoints = Endpoints()
@@ -14,6 +15,7 @@ struct ContentView: View {
     var body: some View {
         NavigationView {
             if #available(iOS 14, *) {
+                
                 
             } else {
                     List() {
@@ -27,6 +29,14 @@ struct ContentView: View {
                         }
                     }
                     .navigationBarTitle("Weekly Flyers", displayMode: .large)
+                    .navigationBarItems(
+                        leading:
+                            Button(action: {
+                            isShowingCategories = true
+                        }, label: {
+                            Image(systemName: "slider.horizontal.3")
+                        })
+                    )
                     .onAppear {
                         caflyersAPI.getData(url: endpoints.flyerBrandsUrl) { data in
                             parse.parseJson(data: data) { (flyerbrands:[FlyerBrand]) in
