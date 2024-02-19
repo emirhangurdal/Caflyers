@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		586DEB0A2B836F73006F6BDB /* FlyerCategories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 586DEB092B836F73006F6BDB /* FlyerCategories.swift */; };
+		586DEB0C2B837DCD006F6BDB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 586DEB0B2B837DCD006F6BDB /* ContentView.swift */; };
+		586DEB0F2B837F45006F6BDB /* StoreLocator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 586DEB0E2B837F45006F6BDB /* StoreLocator.swift */; };
 		58A2979F2B80E79B00BDBE53 /* CaflyersApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58A2979E2B80E79B00BDBE53 /* CaflyersApp.swift */; };
 		58A297A12B80E79B00BDBE53 /* WeeklyFlyers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58A297A02B80E79B00BDBE53 /* WeeklyFlyers.swift */; };
 		58A297A32B80E79D00BDBE53 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58A297A22B80E79D00BDBE53 /* Assets.xcassets */; };
@@ -22,6 +25,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		586DEB092B836F73006F6BDB /* FlyerCategories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlyerCategories.swift; sourceTree = "<group>"; };
+		586DEB0B2B837DCD006F6BDB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		586DEB0E2B837F45006F6BDB /* StoreLocator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = StoreLocator.swift; path = Caflyers/App/StoreLocator.swift; sourceTree = SOURCE_ROOT; };
 		58A2979B2B80E79B00BDBE53 /* Caflyers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Caflyers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		58A2979E2B80E79B00BDBE53 /* CaflyersApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaflyersApp.swift; sourceTree = "<group>"; };
 		58A297A02B80E79B00BDBE53 /* WeeklyFlyers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeeklyFlyers.swift; sourceTree = "<group>"; };
@@ -50,6 +56,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		586DEB082B836F60006F6BDB /* Weekly Flyers */ = {
+			isa = PBXGroup;
+			children = (
+				58A297A02B80E79B00BDBE53 /* WeeklyFlyers.swift */,
+				586DEB092B836F73006F6BDB /* FlyerCategories.swift */,
+			);
+			path = "Weekly Flyers";
+			sourceTree = "<group>";
+		};
+		586DEB0D2B837F39006F6BDB /* Store Locator */ = {
+			isa = PBXGroup;
+			children = (
+				586DEB0E2B837F45006F6BDB /* StoreLocator.swift */,
+			);
+			path = "Store Locator";
+			sourceTree = "<group>";
+		};
 		58A297922B80E79B00BDBE53 = {
 			isa = PBXGroup;
 			children = (
@@ -97,6 +120,7 @@
 				58A2979E2B80E79B00BDBE53 /* CaflyersApp.swift */,
 				58A297AE2B80E8F000BDBE53 /* SceneDelegate.swift */,
 				58A297B12B80F93100BDBE53 /* AppDelegate.swift */,
+				586DEB0B2B837DCD006F6BDB /* ContentView.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -120,7 +144,8 @@
 		58A297B72B81389B00BDBE53 /* Screens */ = {
 			isa = PBXGroup;
 			children = (
-				58A297A02B80E79B00BDBE53 /* WeeklyFlyers.swift */,
+				586DEB0D2B837F39006F6BDB /* Store Locator */,
+				586DEB082B836F60006F6BDB /* Weekly Flyers */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -231,14 +256,17 @@
 			files = (
 				58A297B22B80F93100BDBE53 /* AppDelegate.swift in Sources */,
 				58A297BF2B813A6000BDBE53 /* Parse.swift in Sources */,
+				586DEB0C2B837DCD006F6BDB /* ContentView.swift in Sources */,
 				58A297A12B80E79B00BDBE53 /* WeeklyFlyers.swift in Sources */,
 				58A297BA2B8138B000BDBE53 /* FlyerBrands.swift in Sources */,
 				58A297C42B81436A00BDBE53 /* Endpoints.swift in Sources */,
+				586DEB0F2B837F45006F6BDB /* StoreLocator.swift in Sources */,
 				58A297C22B813CFC00BDBE53 /* FlyerBrandView.swift in Sources */,
 				58A2979F2B80E79B00BDBE53 /* CaflyersApp.swift in Sources */,
 				58A297BC2B81393D00BDBE53 /* CaflyersAPI.swift in Sources */,
 				58A297B62B80FF3500BDBE53 /* ImageExtension.swift in Sources */,
 				58A297AF2B80E8F000BDBE53 /* SceneDelegate.swift in Sources */,
+				586DEB0A2B836F73006F6BDB /* FlyerCategories.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

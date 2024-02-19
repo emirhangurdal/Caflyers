@@ -6,3 +6,16 @@
 //
 
 import Foundation
+import SwiftUI
+
+struct FlyerCategories: View {
+    @Environment(\.presentationMode) var presentationMode
+    var body: some View {
+        List {
+            ForEach(1..<6) { index in
+                Text("A Category \(index)")
+            }
+        }
+    }
+}
+

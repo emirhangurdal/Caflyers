@@ -11,6 +11,7 @@ import SwiftUI
 import SwiftUI
 struct FlyerBrandView: View {
     var flyerBrand: FlyerBrand?
+   
     @State private var image: UIImage?
     var body: some View {
         if #available(iOS 14, *) {
@@ -38,6 +39,7 @@ struct FlyerBrandView: View {
                 .frame(width: 150, height: 150, alignment: .center)
                 Text(flyerBrand?.valid ?? "???")
                     .font(.caption)
+                    .multilineTextAlignment(.leading)
             }
             .onAppear {
                 downloadImage(from: flyerBrand?.image ?? "https://storage.caflyers.ca/theme/logo.png") { response in
