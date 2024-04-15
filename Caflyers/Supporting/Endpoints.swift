@@ -9,7 +9,7 @@ import Foundation
 
 class Endpoints {
     let flyerBrandsUrl = ""
-    func flyerUrl(brand: String) -> String {
+    func flyerUrl(cat: String, brand: String) -> String? {
         let flyerUrl = ""
         return flyerUrl
     }

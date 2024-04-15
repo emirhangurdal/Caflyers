@@ -7,9 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		58043F102BC003F4005F2793 /* ShoppingList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58043F0F2BC003F4005F2793 /* ShoppingList.swift */; };
+		58043F142BC00BA9005F2793 /* ShoppingListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58043F132BC00BA9005F2793 /* ShoppingListModel.swift */; };
+		58043F162BC13ACF005F2793 /* ShoppingListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58043F152BC13ACF005F2793 /* ShoppingListView.swift */; };
+		580A6E722B93159600F1A4C8 /* FlyerBrandsObservable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 580A6E712B93159600F1A4C8 /* FlyerBrandsObservable.swift */; };
+		580A6E742B93178F00F1A4C8 /* ViewOffsetKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 580A6E732B93178F00F1A4C8 /* ViewOffsetKey.swift */; };
+		580B0E1D2B83BDE000061D14 /* FlyerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 580B0E1C2B83BDE000061D14 /* FlyerModel.swift */; };
+		582712892B8661F700F2F6B3 /* FlyerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 582712882B8661F700F2F6B3 /* FlyerView.swift */; };
+		582712902B88D16700F2F6B3 /* FlyerObservable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5827128F2B88D16700F2F6B3 /* FlyerObservable.swift */; };
+		586A64DE2BA5ECF600C534D6 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 586A64DD2BA5ECF600C534D6 /* FirebaseAnalytics */; };
+		586A64E02BA5ECF600C534D6 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 586A64DF2BA5ECF600C534D6 /* FirebaseFirestore */; };
+		586A64E22BA5ECF600C534D6 /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = 586A64E12BA5ECF600C534D6 /* FirebaseMessaging */; };
+		586A64E42BA867FF00C534D6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 586A64E32BA867FF00C534D6 /* GoogleService-Info.plist */; };
 		586DEB0A2B836F73006F6BDB /* FlyerCategories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 586DEB092B836F73006F6BDB /* FlyerCategories.swift */; };
 		586DEB0C2B837DCD006F6BDB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 586DEB0B2B837DCD006F6BDB /* ContentView.swift */; };
 		586DEB0F2B837F45006F6BDB /* StoreLocator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 586DEB0E2B837F45006F6BDB /* StoreLocator.swift */; };
+		586DEB112B838AA6006F6BDB /* Flyer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 586DEB102B838AA6006F6BDB /* Flyer.swift */; };
 		58A2979F2B80E79B00BDBE53 /* CaflyersApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58A2979E2B80E79B00BDBE53 /* CaflyersApp.swift */; };
 		58A297A12B80E79B00BDBE53 /* WeeklyFlyers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58A297A02B80E79B00BDBE53 /* WeeklyFlyers.swift */; };
 		58A297A32B80E79D00BDBE53 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58A297A22B80E79D00BDBE53 /* Assets.xcassets */; };
@@ -17,17 +30,33 @@
 		58A297AF2B80E8F000BDBE53 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58A297AE2B80E8F000BDBE53 /* SceneDelegate.swift */; };
 		58A297B22B80F93100BDBE53 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58A297B12B80F93100BDBE53 /* AppDelegate.swift */; };
 		58A297B62B80FF3500BDBE53 /* ImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58A297B52B80FF3500BDBE53 /* ImageExtension.swift */; };
-		58A297BA2B8138B000BDBE53 /* FlyerBrands.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58A297B92B8138B000BDBE53 /* FlyerBrands.swift */; };
+		58A297BA2B8138B000BDBE53 /* FlyerBrandsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58A297B92B8138B000BDBE53 /* FlyerBrandsModel.swift */; };
 		58A297BC2B81393D00BDBE53 /* CaflyersAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58A297BB2B81393D00BDBE53 /* CaflyersAPI.swift */; };
 		58A297BF2B813A6000BDBE53 /* Parse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58A297BE2B813A6000BDBE53 /* Parse.swift */; };
 		58A297C22B813CFC00BDBE53 /* FlyerBrandView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58A297C12B813CFC00BDBE53 /* FlyerBrandView.swift */; };
 		58A297C42B81436A00BDBE53 /* Endpoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58A297C32B81436A00BDBE53 /* Endpoints.swift */; };
+		58A3B0542BA8870B0009E3FE /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58A3B0532BA8870B0009E3FE /* Launch Screen.storyboard */; };
+		58C2B6602BCD59D20079C0E8 /* Favorites.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58C2B65F2BCD59D20079C0E8 /* Favorites.swift */; };
+		58C2B6622BCD5A9D0079C0E8 /* FavoritesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58C2B6612BCD5A9D0079C0E8 /* FavoritesModel.swift */; };
+		58CD5FE32B9499DC00516D96 /* HideKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58CD5FE22B9499DC00516D96 /* HideKeyboard.swift */; };
+		58CD5FE52B94ABFF00516D96 /* MapModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58CD5FE42B94ABFF00516D96 /* MapModel.swift */; };
+		58EF5CE92B8DF979003A3A17 /* ZoomableScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58EF5CE82B8DF979003A3A17 /* ZoomableScrollView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		58043F0F2BC003F4005F2793 /* ShoppingList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingList.swift; sourceTree = "<group>"; };
+		58043F132BC00BA9005F2793 /* ShoppingListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingListModel.swift; sourceTree = "<group>"; };
+		58043F152BC13ACF005F2793 /* ShoppingListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShoppingListView.swift; sourceTree = "<group>"; };
+		580A6E712B93159600F1A4C8 /* FlyerBrandsObservable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlyerBrandsObservable.swift; sourceTree = "<group>"; };
+		580A6E732B93178F00F1A4C8 /* ViewOffsetKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewOffsetKey.swift; sourceTree = "<group>"; };
+		580B0E1C2B83BDE000061D14 /* FlyerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlyerModel.swift; sourceTree = "<group>"; };
+		582712882B8661F700F2F6B3 /* FlyerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlyerView.swift; sourceTree = "<group>"; };
+		5827128F2B88D16700F2F6B3 /* FlyerObservable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlyerObservable.swift; sourceTree = "<group>"; };
+		586A64E32BA867FF00C534D6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		586DEB092B836F73006F6BDB /* FlyerCategories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlyerCategories.swift; sourceTree = "<group>"; };
 		586DEB0B2B837DCD006F6BDB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		586DEB0E2B837F45006F6BDB /* StoreLocator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = StoreLocator.swift; path = Caflyers/App/StoreLocator.swift; sourceTree = SOURCE_ROOT; };
+		586DEB102B838AA6006F6BDB /* Flyer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flyer.swift; sourceTree = "<group>"; };
 		58A2979B2B80E79B00BDBE53 /* Caflyers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Caflyers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		58A2979E2B80E79B00BDBE53 /* CaflyersApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaflyersApp.swift; sourceTree = "<group>"; };
 		58A297A02B80E79B00BDBE53 /* WeeklyFlyers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeeklyFlyers.swift; sourceTree = "<group>"; };
@@ -38,11 +67,17 @@
 		58A297B02B80EA2C00BDBE53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		58A297B12B80F93100BDBE53 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		58A297B52B80FF3500BDBE53 /* ImageExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageExtension.swift; sourceTree = "<group>"; };
-		58A297B92B8138B000BDBE53 /* FlyerBrands.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlyerBrands.swift; sourceTree = "<group>"; };
+		58A297B92B8138B000BDBE53 /* FlyerBrandsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlyerBrandsModel.swift; sourceTree = "<group>"; };
 		58A297BB2B81393D00BDBE53 /* CaflyersAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaflyersAPI.swift; sourceTree = "<group>"; };
 		58A297BE2B813A6000BDBE53 /* Parse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Parse.swift; sourceTree = "<group>"; };
 		58A297C12B813CFC00BDBE53 /* FlyerBrandView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlyerBrandView.swift; sourceTree = "<group>"; };
 		58A297C32B81436A00BDBE53 /* Endpoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoints.swift; sourceTree = "<group>"; };
+		58A3B0532BA8870B0009E3FE /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		58C2B65F2BCD59D20079C0E8 /* Favorites.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Favorites.swift; sourceTree = "<group>"; };
+		58C2B6612BCD5A9D0079C0E8 /* FavoritesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesModel.swift; sourceTree = "<group>"; };
+		58CD5FE22B9499DC00516D96 /* HideKeyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HideKeyboard.swift; sourceTree = "<group>"; };
+		58CD5FE42B94ABFF00516D96 /* MapModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapModel.swift; sourceTree = "<group>"; };
+		58EF5CE82B8DF979003A3A17 /* ZoomableScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZoomableScrollView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,17 +85,33 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				586A64E22BA5ECF600C534D6 /* FirebaseMessaging in Frameworks */,
+				586A64DE2BA5ECF600C534D6 /* FirebaseAnalytics in Frameworks */,
+				586A64E02BA5ECF600C534D6 /* FirebaseFirestore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		58043F0E2BC003E4005F2793 /* Shopping List */ = {
+			isa = PBXGroup;
+			children = (
+				58043F0F2BC003F4005F2793 /* ShoppingList.swift */,
+				58043F132BC00BA9005F2793 /* ShoppingListModel.swift */,
+				58043F152BC13ACF005F2793 /* ShoppingListView.swift */,
+			);
+			path = "Shopping List";
+			sourceTree = "<group>";
+		};
 		586DEB082B836F60006F6BDB /* Weekly Flyers */ = {
 			isa = PBXGroup;
 			children = (
 				58A297A02B80E79B00BDBE53 /* WeeklyFlyers.swift */,
+				586DEB102B838AA6006F6BDB /* Flyer.swift */,
 				586DEB092B836F73006F6BDB /* FlyerCategories.swift */,
+				58A297C02B813CF200BDBE53 /* Views */,
+				58A297C52B8146CE00BDBE53 /* Model */,
 			);
 			path = "Weekly Flyers";
 			sourceTree = "<group>";
@@ -69,6 +120,7 @@
 			isa = PBXGroup;
 			children = (
 				586DEB0E2B837F45006F6BDB /* StoreLocator.swift */,
+				58CD5FE42B94ABFF00516D96 /* MapModel.swift */,
 			);
 			path = "Store Locator";
 			sourceTree = "<group>";
@@ -76,6 +128,7 @@
 		58A297922B80E79B00BDBE53 = {
 			isa = PBXGroup;
 			children = (
+				586A64E32BA867FF00C534D6 /* GoogleService-Info.plist */,
 				58A2979D2B80E79B00BDBE53 /* Caflyers */,
 				58A2979C2B80E79B00BDBE53 /* Products */,
 			);
@@ -92,11 +145,10 @@
 		58A2979D2B80E79B00BDBE53 /* Caflyers */ = {
 			isa = PBXGroup;
 			children = (
-				58A297C02B813CF200BDBE53 /* Views */,
+				58A297B42B80FF1F00BDBE53 /* Extension */,
 				58A297BD2B813A5800BDBE53 /* Supporting */,
 				58A297B82B8138A400BDBE53 /* Data */,
 				58A297B72B81389B00BDBE53 /* Screens */,
-				58A297B42B80FF1F00BDBE53 /* Extension */,
 				58A297B02B80EA2C00BDBE53 /* Info.plist */,
 				58A297AD2B80E8D700BDBE53 /* App */,
 				58A297A22B80E79D00BDBE53 /* Assets.xcassets */,
@@ -121,6 +173,7 @@
 				58A297AE2B80E8F000BDBE53 /* SceneDelegate.swift */,
 				58A297B12B80F93100BDBE53 /* AppDelegate.swift */,
 				586DEB0B2B837DCD006F6BDB /* ContentView.swift */,
+				58A3B0532BA8870B0009E3FE /* Launch Screen.storyboard */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -144,6 +197,8 @@
 		58A297B72B81389B00BDBE53 /* Screens */ = {
 			isa = PBXGroup;
 			children = (
+				58C2B65E2BCD59C90079C0E8 /* Favorites */,
+				58043F0E2BC003E4005F2793 /* Shopping List */,
 				586DEB0D2B837F39006F6BDB /* Store Locator */,
 				586DEB082B836F60006F6BDB /* Weekly Flyers */,
 			);
@@ -154,7 +209,6 @@
 			isa = PBXGroup;
 			children = (
 				58A297B32B80FD5100BDBE53 /* CaflyersAPI */,
-				58A297C52B8146CE00BDBE53 /* Model */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -164,6 +218,9 @@
 			children = (
 				58A297BE2B813A6000BDBE53 /* Parse.swift */,
 				58A297C32B81436A00BDBE53 /* Endpoints.swift */,
+				58EF5CE82B8DF979003A3A17 /* ZoomableScrollView.swift */,
+				580A6E732B93178F00F1A4C8 /* ViewOffsetKey.swift */,
+				58CD5FE22B9499DC00516D96 /* HideKeyboard.swift */,
 			);
 			path = Supporting;
 			sourceTree = "<group>";
@@ -172,6 +229,7 @@
 			isa = PBXGroup;
 			children = (
 				58A297C12B813CFC00BDBE53 /* FlyerBrandView.swift */,
+				582712882B8661F700F2F6B3 /* FlyerView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -179,9 +237,21 @@
 		58A297C52B8146CE00BDBE53 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				58A297B92B8138B000BDBE53 /* FlyerBrands.swift */,
+				58A297B92B8138B000BDBE53 /* FlyerBrandsModel.swift */,
+				580B0E1C2B83BDE000061D14 /* FlyerModel.swift */,
+				5827128F2B88D16700F2F6B3 /* FlyerObservable.swift */,
+				580A6E712B93159600F1A4C8 /* FlyerBrandsObservable.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		58C2B65E2BCD59C90079C0E8 /* Favorites */ = {
+			isa = PBXGroup;
+			children = (
+				58C2B65F2BCD59D20079C0E8 /* Favorites.swift */,
+				58C2B6612BCD5A9D0079C0E8 /* FavoritesModel.swift */,
+			);
+			path = Favorites;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,6 +270,11 @@
 			dependencies = (
 			);
 			name = Caflyers;
+			packageProductDependencies = (
+				586A64DD2BA5ECF600C534D6 /* FirebaseAnalytics */,
+				586A64DF2BA5ECF600C534D6 /* FirebaseFirestore */,
+				586A64E12BA5ECF600C534D6 /* FirebaseMessaging */,
+			);
 			productName = Caflyers;
 			productReference = 58A2979B2B80E79B00BDBE53 /* Caflyers.app */;
 			productType = "com.apple.product-type.application";
@@ -211,6 +286,9 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
+				KnownAssetTags = (
+					New,
+				);
 				LastSwiftUpdateCheck = 1430;
 				LastUpgradeCheck = 1430;
 				TargetAttributes = {
@@ -228,6 +306,9 @@
 				Base,
 			);
 			mainGroup = 58A297922B80E79B00BDBE53;
+			packageReferences = (
+				586A64DC2BA5ECF600C534D6 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = 58A2979C2B80E79B00BDBE53 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -244,6 +325,8 @@
 			files = (
 				58A297A62B80E79D00BDBE53 /* Preview Assets.xcassets in Resources */,
 				58A297A32B80E79D00BDBE53 /* Assets.xcassets in Resources */,
+				58A3B0542BA8870B0009E3FE /* Launch Screen.storyboard in Resources */,
+				586A64E42BA867FF00C534D6 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,16 +340,30 @@
 				58A297B22B80F93100BDBE53 /* AppDelegate.swift in Sources */,
 				58A297BF2B813A6000BDBE53 /* Parse.swift in Sources */,
 				586DEB0C2B837DCD006F6BDB /* ContentView.swift in Sources */,
+				580A6E722B93159600F1A4C8 /* FlyerBrandsObservable.swift in Sources */,
 				58A297A12B80E79B00BDBE53 /* WeeklyFlyers.swift in Sources */,
-				58A297BA2B8138B000BDBE53 /* FlyerBrands.swift in Sources */,
+				580A6E742B93178F00F1A4C8 /* ViewOffsetKey.swift in Sources */,
+				58CD5FE52B94ABFF00516D96 /* MapModel.swift in Sources */,
+				58A297BA2B8138B000BDBE53 /* FlyerBrandsModel.swift in Sources */,
 				58A297C42B81436A00BDBE53 /* Endpoints.swift in Sources */,
+				58043F162BC13ACF005F2793 /* ShoppingListView.swift in Sources */,
+				58043F142BC00BA9005F2793 /* ShoppingListModel.swift in Sources */,
 				586DEB0F2B837F45006F6BDB /* StoreLocator.swift in Sources */,
+				582712892B8661F700F2F6B3 /* FlyerView.swift in Sources */,
+				58CD5FE32B9499DC00516D96 /* HideKeyboard.swift in Sources */,
+				58C2B6622BCD5A9D0079C0E8 /* FavoritesModel.swift in Sources */,
 				58A297C22B813CFC00BDBE53 /* FlyerBrandView.swift in Sources */,
+				580B0E1D2B83BDE000061D14 /* FlyerModel.swift in Sources */,
 				58A2979F2B80E79B00BDBE53 /* CaflyersApp.swift in Sources */,
 				58A297BC2B81393D00BDBE53 /* CaflyersAPI.swift in Sources */,
+				582712902B88D16700F2F6B3 /* FlyerObservable.swift in Sources */,
+				586DEB112B838AA6006F6BDB /* Flyer.swift in Sources */,
 				58A297B62B80FF3500BDBE53 /* ImageExtension.swift in Sources */,
+				58043F102BC003F4005F2793 /* ShoppingList.swift in Sources */,
+				58EF5CE92B8DF979003A3A17 /* ZoomableScrollView.swift in Sources */,
 				58A297AF2B80E8F000BDBE53 /* SceneDelegate.swift in Sources */,
 				586DEB0A2B836F73006F6BDB /* FlyerCategories.swift in Sources */,
+				58C2B6602BCD59D20079C0E8 /* Favorites.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -393,27 +490,30 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_ENTITLEMENTS = Caflyers/Caflyers.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_ASSET_PATHS = "\"Caflyers/Preview Content\"";
 				DEVELOPMENT_TEAM = 36LWVJ2THH;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Caflyers/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = Caflyers;
+				INFOPLIST_KEY_CFBundleDisplayName = "Ca Flyers";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Caflyers;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
@@ -428,27 +528,30 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_ENTITLEMENTS = Caflyers/Caflyers.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_ASSET_PATHS = "\"Caflyers/Preview Content\"";
 				DEVELOPMENT_TEAM = 36LWVJ2THH;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Caflyers/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = Caflyers;
+				INFOPLIST_KEY_CFBundleDisplayName = "Ca Flyers";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Caflyers;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
@@ -480,6 +583,35 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		586A64DC2BA5ECF600C534D6 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		586A64DD2BA5ECF600C534D6 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 586A64DC2BA5ECF600C534D6 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		586A64DF2BA5ECF600C534D6 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 586A64DC2BA5ECF600C534D6 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		586A64E12BA5ECF600C534D6 /* FirebaseMessaging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 586A64DC2BA5ECF600C534D6 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMessaging;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 58A297932B80E79B00BDBE53 /* Project object */;
 }
